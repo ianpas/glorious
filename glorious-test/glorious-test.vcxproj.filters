@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Build">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{7daa98e8-1c3c-4945-a829-a4a0212b7df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Scene">
+      <UniqueIdentifier>{11b540af-2a52-41e6-a977-742cb895e97f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Scene\GameObject">
+      <UniqueIdentifier>{26c3d52c-93f6-4e5d-935c-ac85b4c17c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Scene\Script">
+      <UniqueIdentifier>{45e1cdef-80a6-4652-a8a8-663881c8db5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralScene.h">
+      <Filter>Test\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamera.h">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovement.h">
+      <Filter>Test\Scene\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Crate.h">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorController.h">
+      <Filter>Test\Scene\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFollow.h">
+      <Filter>Test\Scene\Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Build</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="GeneralTest.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralScene.cpp">
+      <Filter>Test\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamera.cpp">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovement.cpp">
+      <Filter>Test\Scene\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Crate.cpp">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Test\Scene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorController.cpp">
+      <Filter>Test\Scene\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFollow.cpp">
+      <Filter>Test\Scene\Script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="glorious-test.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="glorious-test.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{9d20ef4c-5738-4662-a508-b6f720a049ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Build">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Implementation">
+      <UniqueIdentifier>{c1b083df-b1f9-44b3-b90e-56cbc33cda56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene">
+      <UniqueIdentifier>{6debdb10-5f81-4792-be02-f268d466a85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject">
+      <UniqueIdentifier>{798c91b5-20b4-49cd-9186-94c6248fa796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component">
+      <UniqueIdentifier>{b87cdbea-7e42-4553-a2fb-1ea4bc0a14f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Mesh">
+      <UniqueIdentifier>{7c1e9f23-1b6e-4e43-8da0-0ac2c598ef2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Camera">
+      <UniqueIdentifier>{66367dee-b157-428e-9667-dfb1162d0214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Renderer">
+      <UniqueIdentifier>{bf9aad34-ebdb-4629-a8e6-ec58531e34b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Transform">
+      <UniqueIdentifier>{7298b62f-e081-4ea4-a3eb-4203d3ffe7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene">
+      <UniqueIdentifier>{19a7ab2e-f08c-4669-ad0c-d92ef344db8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject">
+      <UniqueIdentifier>{f889ecae-458d-4869-8622-7118b5349417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component">
+      <UniqueIdentifier>{d0ae3a9c-3381-4dda-a14e-63438dd45a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Mesh">
+      <UniqueIdentifier>{4d6d54e8-523d-45c8-b729-6368de0cbcdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Camera">
+      <UniqueIdentifier>{ff7f59ae-f0ed-466c-ae8b-ac0db33b66a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Renderer">
+      <UniqueIdentifier>{733fbb21-0453-4852-8133-d0ca4075a1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Transform">
+      <UniqueIdentifier>{2765262f-0bbe-4d16-869c-2ede8609ab7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Shader">
+      <UniqueIdentifier>{64a47900-4784-4b5e-8096-64023ad20ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Shader">
+      <UniqueIdentifier>{1f649100-8bcc-424f-953c-4befef9b0f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Tool">
+      <UniqueIdentifier>{0e8f588e-2a44-42b2-a898-212e4619df7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Input">
+      <UniqueIdentifier>{9391fe31-873f-4770-a27d-45ba716f0da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Physics">
+      <UniqueIdentifier>{03cf4dcc-0fb7-4760-9b25-e6811d8063ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Graphics">
+      <UniqueIdentifier>{17774f6b-b45b-4648-bf6d-184d43c0f482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Rigidbody">
+      <UniqueIdentifier>{e88b04a7-cba1-4ea0-9ba1-6883dd323383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Rigidbody">
+      <UniqueIdentifier>{016acd5b-a9ee-4514-8c5c-dd56acc8472b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Scene\GameObject\Component\Light">
+      <UniqueIdentifier>{76863640-4278-41bc-85f8-a88034723a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Scene\GameObject\Component\Light">
+      <UniqueIdentifier>{d5732a15-010e-4047-ad47-1779e3773fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\File">
+      <UniqueIdentifier>{3a001477-fc07-4c88-a7b7-4e94f6efd6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Implementation\Math">
+      <UniqueIdentifier>{839d6dc7-afb7-4ac7-81a5-2b68187c1a50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Build</Filter>
+    </ClInclude>
+    <ClInclude Include="IMesh.h">
+      <Filter>Interface\Scene\GameObject\Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>Interface\Scene\GameObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="IVertexShader.h">
+      <Filter>Interface\Scene\GameObject\Component\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="IPixelShader.h">
+      <Filter>Interface\Scene\GameObject\Component\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Implementation\Scene\GameObject\Component\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Implementation\Scene\GameObject\Component\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectManager.h">
+      <Filter>Implementation\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ITransform.h">
+      <Filter>Interface\Scene\GameObject\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Implementation\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Implementation\Scene\GameObject\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Implementation\Scene\GameObject\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Interface\Scene\GameObject\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Implementation\Scene\GameObject\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Implementation\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Implementation\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Interface\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>Interface\Scene\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Interface\Scene\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Implementation\Scene\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Implementation\Scene\GameObject\Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Implementation\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Implementation\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Implementation\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Implementation\Scene\GameObject\Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Implementation\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="IRigidbody.h">
+      <Filter>Interface\Scene\GameObject\Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="ILight.h">
+      <Filter>Interface\Scene\GameObject\Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Implementation\Scene\GameObject\Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Implementation\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Implementation\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Build</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectManager.cpp">
+      <Filter>Implementation\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Implementation\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Implementation\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Implementation\Scene\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Implementation\Scene\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Implementation\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Implementation\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Implementation\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Implementation\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Implementation\Scene\GameObject\Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Implementation\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Implementation\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
