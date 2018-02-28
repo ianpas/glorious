@@ -3,6 +3,8 @@ Simple game library.
 
 # Demo
 
+Inspired by [How to make a Video Game in Unity](https://www.youtube.com/watch?v=r5NWZoTSjWs&index=11&list=PLPV2KyIb3jR53Jce9hP7G5xC4O9AgnOuL).
+
 <img src="https://github.com/ianpas/glorious/blob/master/demo/demo.png" alt="demo"/>
 
 You can find demo here: [demo](https://github.com/ianpas/glorious/tree/master/demo)
