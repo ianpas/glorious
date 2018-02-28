@@ -1,0 +1,2 @@
+# glorious
+simple game library
