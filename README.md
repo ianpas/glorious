@@ -16,7 +16,7 @@ You can find demo here: [demo](https://github.com/ianpas/glorious/tree/master/de
    Simple texture and lighting.
    
 3. Physics: Bullet <br>
-   Simple rigidbody interaction.
+   Simple rigidbody interaction and collision detection.
    
 4. Model: FBX format, see [mesh-get](https://github.com/ianpas/mesh-get).
 
