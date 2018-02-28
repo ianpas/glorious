@@ -20,6 +20,6 @@ You can find demo here: [demo](https://github.com/ianpas/glorious/tree/master/de
    
 4. Model: FBX format, see [mesh-get](https://github.com/ianpas/mesh-get).
 
-5. Usage: Unity style <br> 
+5. Gameplay: Unity style <br> 
    Awake, Start and Update... in "C++ script" <br>
    Sounds funny :) 
